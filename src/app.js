@@ -4,24 +4,27 @@ import { FlexCol } from './utils'
 
 export var App = () => {
   return (
-    <FlexCol
+    <div
       style={{
         width: '100%',
         height: '100%',
         background: 'white',
-
         justifyContent: 'center',
         alignItems: 'center',
+        borderRadius: 0,
+        overflow: 'hidden',
       }}
     >
-      <img
-        src='https://github.com/concrete-utopia/utopia/blob/master/editor/resources/editor/pyramid_fullsize@2x.jpg?raw=true'
-        alt='Utopia logo'
+      <div
         style={{
-          width: 357,
-          height: 453,
+          backgroundColor: '#aaaaaa33',
+          position: 'absolute',
+          left: 288,
+          top: 190,
         }}
-      ></img>
-    </FlexCol>
+      >
+        hello this is a test for utopia
+      </div>
+    </div>
   )
 }

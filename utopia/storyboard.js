@@ -16,9 +16,7 @@ export var storyboard = (
         top: 128,
       }}
       data-label='Playground'
-    >
-      <Playground style={{}} />
-    </Scene>
+    />
     <Scene
       id='app-scene'
       commentId='app-scene'
@@ -26,12 +24,12 @@ export var storyboard = (
         width: 744,
         height: 1133,
         position: 'absolute',
-        left: 1036,
-        top: 128,
+        left: 1118,
+        top: 69,
       }}
       data-label='My App'
     >
-      <App style={{}} />
+      <App style={{ left: 181, top: 99 }} />
     </Scene>
   </Storyboard>
 )
